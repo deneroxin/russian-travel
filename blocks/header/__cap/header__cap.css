@@ -1,0 +1,29 @@
+.header__cap {
+  box-sizing: border-box;
+  padding: 28px 48px 48px;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+@media (max-width: 1024px) {
+
+  .header__cap {
+    --new-padding: calc(24px + (48 - 24) * var(--scale-j));
+    padding-left: var(--new-padding);
+    padding-right: var(--new-padding);
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .header__cap {
+    --new-padding: calc(16px + (24 - 16) * var(--scale-k));
+    padding-left: var(--new-padding);
+    padding-right: var(--new-padding);
+    padding-top: calc(16px + (28 - 16) * var(--scale-k));
+  }
+
+}
