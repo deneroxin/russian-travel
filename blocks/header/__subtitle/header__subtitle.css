@@ -3,16 +3,36 @@
   font-size: 30px;
   max-width: 640px;
   text-align: center;
-  margin: 0 auto;
+  margin: 32px auto 64px;
+}
+
+
+@media (max-width: 1280px) {
+
+  .header__subtitle {
+    margin-bottom: calc(56px + (64 - 56) * var(--scale-L));
+  }
+
+}
+
+
+@media (max-width: 1024px) {
+
+  .header__subtitle {
+    margin-bottom: 56px;
+  }
+
 }
 
 
 @media (max-width: 768px) {
 
   .header__subtitle {
-    line-height: calc(20px + (36 - 20) * var(--scale-k));
-    font-size: calc(16px + (30 - 16) * var(--scale-k));
-    max-width: calc(288px + (640 - 288) * var(--scale-k));
+    line-height: calc(20px + (36 - 20) * var(--scale-S));
+    font-size: calc(16px + (30 - 16) * var(--scale-S));
+    max-width: calc(288px + (640 - 288) * var(--scale-S));
+    margin-top: calc(16px + (32 - 16) * var(--scale-S));
+    margin-bottom: calc(40px + (56 - 40) * var(--scale-S));
   }
 
 }

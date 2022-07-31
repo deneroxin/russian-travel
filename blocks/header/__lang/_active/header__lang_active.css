@@ -1,4 +1,4 @@
 .header__lang_active {
   padding-bottom: 0;
-  border-bottom: 2px solid var(--color-text);  /* underline подчеркивает близко к тексту, на макете не так */
+  border-bottom: 2px solid var(--color-text);  /* underline подчеркивает слишком близко к тексту - не так, как на макете */
 }

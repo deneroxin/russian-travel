@@ -7,16 +7,20 @@
   <base target="_blank">
   <link rel="stylesheet" href="pages/index.css">
 </head>
-<body>
+<body class="background">
   <div class="page">
-    <header class="header">
+    <header>
       <div class="header__cap">
         <div class="header__logo"></div>
-        <a class="header__lang header__lang_active" lang="en" href="#">Ru</a>
-        <a class="header__lang" lang="en" href="#">En</a>
+        <a class="header__lang header__lang_active" lang="en" href="#" target="_self">Ru</a>
+        <a class="header__lang" lang="en" href="#" target="_self">En</a>
       </div>
       <h1 class="header__title">Путешествия по России</h1>
       <p class="header__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+      <img class="header__image" src="./blocks/header/__image/header__image.jpg"
+           alt="Линия, очерчивающая маршрут через города: Псков, Великий Новгород, Тверь, Ярославль, Мантурово, Котельнич-1, Глазов,
+           Пермь, Тюмень, Омск, Красноярск, Улан-удэ. На фоне пассажир лежит на нижней боковой полке поезда, отвернувшись к окну.">
+      <p class="header__subscript">ваша полка — верхняя</p>
     </header>
 
     <main>
@@ -34,14 +38,40 @@
           усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране.
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
-        <dl class="description__statistics">
-          <dt class="description__statistic-title"></dt>
-          <dd class="description__statistic-data"></dd>
-        </dl>
+        <ul class="description__statistics">
+          <li>Часовых поясов <span class="description__statistic-data">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="description__statistic-data">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="description__statistic-data">16</span></li>
+          <li>Природных заповедников <span class="description__statistic-data">105</span></li>
+          <li>Аэропортов <span class="description__statistic-data">241</span></li>
+        </ul>
       </section>
 
-      <section class="photos">
-
+      <section class="photos" aria-label="Фото красивых мест">
+        <img src="./blocks/photos/photo_train-window.jpg"
+             alt="Вид из окна поезда: березы вдоль берега моря.">
+        <img src="./blocks/photos/photo_mountain-pick-clouded.jpg"
+             alt="Заснеженная вершина горы в облаках.">
+        <img src="./blocks/photos/photo_dog.jpg"
+             alt="Собака на стоге сена посреди поля.">
+        <img src="./blocks/photos/photo_fir-trees.jpg"
+             alt="Хвойный лес на склоне горы в тумане.">
+        <img src="./blocks/photos/photo_wheel.jpg"
+             alt="Колесо автомобиля, заехавшего на лед.">
+        <img src="./blocks/photos/photo_seashore.jpg"
+             alt="Морской песчаный берег, уходя вдаль, упирается в горный хребет.">
+        <img src="./blocks/photos/photo_mountain-pick-clear.jpg"
+             alt="Острая вершина горы в снегу.">
+        <img src="./blocks/photos/photo_concrete.jpg"
+             alt="Знак пешеходного перехода на фоне бетонных обломков конической формы.">
+        <img src="./blocks/photos/photo_brown-hills.jpg"
+             alt="Рыжие холмы гор.">
+        <img src="./blocks/photos/photo_valley.jpg"
+             alt="Долина с редкой растительностью на фоне рыжей горы с прогалинами снега.">
+        <img src="./blocks/photos/photo_cliff.jpg"
+             alt="Утес на берегу моря.">
+        <img src="./blocks/photos/photo_sharp-knoll.jpg"
+             alt="Сопка среди горных холмов, укрытых облаками.">
       </section>
 
       <section class="places">
@@ -54,7 +84,14 @@
     </main>
 
     <footer class="footer">
-
+      <nav class="footer__nav">
+        <a class="footer__nav-link" href="https://yandex.ru/maps">Карты</a>
+        <a class="footer__nav-link" href="https://yandex.ru/pogoda">Погода</a>
+        <a class="footer__nav-link" href="https://rasp.yandex.ru">Расписание</a>
+        <a class="footer__nav-link" href="https://calendar.yandex.ru">Календарь</a>
+        <a class="footer__nav-link" href="https://travel.yandex.ru">Путешествия</a>
+      </nav>
+      <p class="footer__author">&copy; 2022. Ерохин Денис</p>
     </footer>
   </div>
 </body>

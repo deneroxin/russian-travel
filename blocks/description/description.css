@@ -1,0 +1,36 @@
+.description {
+  margin: 92px 0;
+  padding-left: 148px;
+  width: 690px;
+}
+
+
+@media (max-width: 1280px) {
+
+  .description {
+    padding-left: var(--padding-L);
+  }
+
+}
+
+
+@media (max-width: 1024px) {
+
+  .description {
+    padding-left: var(--padding-M);
+    margin: calc(88px + (92 - 88) * var(--scale-M)) 0;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .description {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 var(--padding-S);
+    margin: calc(64px + (88 - 64) * var(--scale-S)) 0;
+  }
+
+}

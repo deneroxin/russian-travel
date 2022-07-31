@@ -1,6 +1,6 @@
 .header__lang {
   display: block;       /* будем делать подчеркивание с помощью border */
-  padding-bottom: 2px;  /* компенсация толщины подчеркивания */
+  padding-bottom: 2px;  /* компенсация толщины подчеркивания для уравнивания высоты элементов при align-items: flex-end */
   margin-bottom: 5px;   /* сделать текст примерно на одном уровне со словом "Россия" */
   line-height: 28px;
   font-size: 24px;
@@ -16,8 +16,8 @@
 @media (max-width: 768px) {
 
   .header__lang {
-    line-height: calc(20px + (28 - 20) * var(--scale-k));
-    font-size: calc(18px + (24 - 18) * var(--scale-k));
+    line-height: calc(20px + (28 - 20) * var(--scale-S));
+    font-size: calc(18px + (24 - 18) * var(--scale-S));
   }
 
 }

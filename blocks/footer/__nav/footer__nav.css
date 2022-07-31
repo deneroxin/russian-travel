@@ -1,0 +1,14 @@
+.footer__nav {
+  display: flex;
+  align-items: baseline;
+}
+
+
+@media (max-width: 750px) {
+
+  .footer__nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
