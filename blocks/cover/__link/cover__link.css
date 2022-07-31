@@ -1,0 +1,9 @@
+.cover__link {
+  position: relative;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: stretch;
+  cursor: url(../../../cursors/custom-pointer.png) 8 3, pointer;
+  color: var(--color-text);
+  text-decoration: none;
+}

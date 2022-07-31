@@ -1,0 +1,19 @@
+.cover__link-subtitle {
+  margin: 0;
+  max-width: 360px;
+  line-height: 22px;
+  font-size: 18px;
+  opacity: 100%;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+  .cover__link-subtitle {
+    max-width: calc(280px + (360 - 280) * var(--scale-S));
+    line-height: calc(16px + (22 - 16) * var(--scale-S));
+    font-size: calc(14px + (18 - 14) * var(--scale-S));
+  }
+
+}
