@@ -18,7 +18,7 @@
 
   .description {
     margin: calc(88px + (92 - 88) * var(--scale-M)) 0;
-    padding-left: var(--padding-M);    
+    padding-left: var(--padding-M);
   }
 
 }
@@ -27,7 +27,7 @@
 @media (max-width: 768px) {
 
   .description {
-    margin: calc(64px + (88 - 64) * var(--scale-S)) 0;    
+    margin: calc(64px + (88 - 64) * var(--scale-S)) 0;
     box-sizing: border-box;
     width: 100%;
     padding: 0 var(--padding-S);
