@@ -1,0 +1,5 @@
+.link-style {
+  text-decoration: none;
+  color: var(--color-text);
+  cursor: url(../../cursors/custom-pointer.png) 8 3, pointer;
+}

@@ -1,3 +1,37 @@
 .place {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 440fr 456fr;
+  place-items: stretch;
+  row-gap: 48px;
+  column-gap: 3.2vw;
+}
+
+
+@media (max-width: 1024px) {
+
+  .place {
+    margin-top: calc(72px + (80 - 72) * var(--scale-M));
+  }
 
 }
+
+
+@media (max-width: 768px) {
+
+  .place {
+    margin-top: calc(50px + (72 - 50) * var(--scale-S));
+  }
+    
+}
+
+
+@media (max-width: 500px) {
+
+  .place {
+    grid-template-columns: 100%;
+    row-gap: 32px;
+  }
+      
+}
+  

@@ -1,3 +1,35 @@
 .places {
+  box-sizing: border-box;
+  padding: 92px 148px;
+}
 
+
+@media (max-width: 1280px) {
+
+  .places {
+    padding: 92px var(--padding-L);
+  }
+
+}
+
+
+@media (max-width: 1024px) {
+
+  .places {
+    padding: calc(88px + (92 - 88) * var(--scale-M)) 
+             var(--padding-M)
+             calc(90px + (92 - 90) * var(--scale-M));
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .places {
+    padding: calc(64px + (88 - 64) * var(--scale-S)) 
+             calc(0px + 24 * var(--scale-S))
+             calc(66px + (90 - 66) * var(--scale-S));
+  }
+  
 }

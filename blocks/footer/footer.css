@@ -1,6 +1,6 @@
 .footer {
-  padding: 92px 48px 24px;
   box-sizing: border-box;
+  padding: 92px 48px 24px;  
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -11,8 +11,7 @@
 
   .footer {
     padding: calc(88px + (92 - 88) * var(--scale-M))
-             calc(24px + (48 - 24) * var(--scale-M))
-             24px;
+             calc(24px + (48 - 24) * var(--scale-M)) 24px;
   }
 
 }
@@ -21,9 +20,7 @@
 @media (max-width: 768px) {
 
   .footer {
-    --new-padding: calc(16px + (24 - 16) * var(--scale-S));
-    padding-left: var(--new-padding);
-    padding-right: var(--new-padding);
+    padding: 88px calc(16px + (24 - 16) * var(--scale-S)) 24px;
   }
 
 }
@@ -34,7 +31,6 @@
   .footer {
     display: block;
     padding-top: 64px;
-    padding-bottom: 24px;
   }
 
 }

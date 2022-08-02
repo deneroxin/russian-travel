@@ -1,0 +1,6 @@
+.picture-link {
+  position: relative;
+  display: grid;                /* Добиваемся, чтобы картинка растянулась на всю ширину поля, */
+  grid-template-columns: 100%;  /* сохранив пропорции, и обеспечила нужную высоту контейнеру. */
+  justify-items: stretch;
+}

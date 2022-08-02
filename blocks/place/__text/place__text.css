@@ -1,0 +1,37 @@
+.place__text {
+  box-sizing: border-box;
+  margin: 26px 0 0;
+  line-height: 1.63;
+  font-size: 18px;
+}
+
+.place__text:first-child {
+  margin-top: 0;
+}
+
+
+@media (max-width: 1024px) {
+  
+  .place__text {
+    font-size: calc(16px + (18 - 16) * var(--scale-M));
+  }
+  
+}
+  
+
+@media (max-width: 768px) {
+  
+  .place__text {
+    font-size: 16px;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+  
+  .place__text {
+    padding: 0 16px 0;
+  }
+  
+}

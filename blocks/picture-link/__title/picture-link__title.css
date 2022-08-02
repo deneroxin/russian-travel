@@ -1,17 +1,17 @@
-.cover__link-title {
+.picture-link__title {
   margin: 0 0 32px;
   max-width: 560px;
+  text-align: center;  
   line-height: 76px;
   font-size: 72px;
   font-weight: 900;
   opacity: 100%;
-  text-align: center;
 }
 
 
 @media (max-width: 768px) {
 
-  .cover__link-title {
+  .picture-link__title {
     margin-bottom: calc(16px + (32 - 16) * var(--scale-S));
     max-width: calc(240px + (560 - 240) * var(--scale-S));
     line-height: calc(35px + (76 - 35) * var(--scale-S));

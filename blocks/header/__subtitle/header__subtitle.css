@@ -1,9 +1,9 @@
 .header__subtitle {
-  line-height: 36px;
-  font-size: 30px;
+  margin: 32px auto 64px;
   max-width: 640px;
   text-align: center;
-  margin: 32px auto 64px;
+  line-height: 36px;
+  font-size: 30px;  
 }
 
 
@@ -28,11 +28,11 @@
 @media (max-width: 768px) {
 
   .header__subtitle {
-    line-height: calc(20px + (36 - 20) * var(--scale-S));
-    font-size: calc(16px + (30 - 16) * var(--scale-S));
-    max-width: calc(288px + (640 - 288) * var(--scale-S));
     margin-top: calc(16px + (32 - 16) * var(--scale-S));
     margin-bottom: calc(40px + (56 - 40) * var(--scale-S));
+    max-width: calc(288px + (640 - 288) * var(--scale-S));
+    line-height: calc(20px + (36 - 20) * var(--scale-S));
+    font-size: calc(16px + (30 - 16) * var(--scale-S));
   }
 
 }

@@ -1,4 +1,4 @@
-.cover__link-overlay {
+.picture-link__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -9,6 +9,6 @@
   transition: opacity .3s ease;
 }
 
-.cover__link:hover .cover__link-overlay {
+.picture-link:hover .picture-link__overlay {
   opacity: 80%;
 }

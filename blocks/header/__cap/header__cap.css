@@ -1,7 +1,6 @@
 .header__cap {
-  padding: 28px 0 48px;
-  width: calc(100% - 2 * 48px);
-  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 28px 48px 48px;
   display: flex;
   align-items: flex-end;
 }
@@ -10,7 +9,7 @@
 @media (max-width: 1024px) {
 
   .header__cap {
-    width: calc(100% - 2 * (24px + (48 - 24) * var(--scale-M)));
+    padding: 28px var(--padding-M) 48px;
   }
 
 }
@@ -19,8 +18,7 @@
 @media (max-width: 768px) {
 
   .header__cap {
-    width: calc(100% - 2 * (16px + (24 - 16) * var(--scale-S)));
-    padding-top: calc(16px + (28 - 16) * var(--scale-S));
+    padding: calc(16px + (28 - 16) * var(--scale-S)) var(--padding-S) 48px;
   }
 
 }
