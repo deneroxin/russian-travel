@@ -31,7 +31,8 @@
 @media (max-width: 500px) {
 
   .place__text {
-    padding: 0 16px 0;
+    padding-left: var(--padding-S);
+    padding-right: var(--padding-S);
   }
 
 }

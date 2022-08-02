@@ -1,54 +1,51 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 
-@import url(../blocks/root/root.css);
+@import url(../root/root.css);
 @import url(../blocks/background/background.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/link-style/link-style.css);
 
 @import url(../blocks/picture-link/picture-link.css);
-  @import url(../blocks/picture-link/__image/picture-link__image.css);
-  @import url(../blocks/picture-link/__overlay/picture-link__overlay.css);
-  @import url(../blocks/picture-link/__text-block/picture-link__text-block.css);
-    @import url(../blocks/picture-link/__title/picture-link__title.css);
-    @import url(../blocks/picture-link/__subtitle/picture-link__subtitle.css);
+@import url(../blocks/picture-link/__title/picture-link__title.css);
+@import url(../blocks/picture-link/__subtitle/picture-link__subtitle.css);
 
 @import url(../blocks/place/place.css);
-  @import url(../blocks/place/__title/place__title.css);
-  @import url(../blocks/place/__link-container/place__link-container.css);
-  @import url(../blocks/place/__link-label/place__link-label.css);
-  @import url(../blocks/place/__link/place__link.css);
-  @import url(../blocks/place/__image/place__image.css);
-    @import url(../blocks/place/__image/_pic/place__image_pic_kurshskaya-kosa.css);
-    @import url(../blocks/place/__image/_pic/place__image_pic_kolskiy.css);
-    @import url(../blocks/place/__image/_pic/place__image_pic_altay.css);
-    @import url(../blocks/place/__image/_pic/place__image_pic_zimniy-baykal.css);
-    @import url(../blocks/place/__image/_pic/place__image_pic_kareliya.css);
-  @import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__link-container/place__link-container.css);
+@import url(../blocks/place/__link-label/place__link-label.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__square-container/place__square-container.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__text/place__text.css);
 
-  @import url(../blocks/header/__cap/header__cap.css);
-    @import url(../blocks/header/__logo/header__logo.css);
-    @import url(../blocks/header/__lang/header__lang.css);
-    @import url(../blocks/header/__lang/_active/header__lang_active.css);
-  @import url(../blocks/header/__title/header__title.css);
-  @import url(../blocks/header/__subtitle/header__subtitle.css);
-  @import url(../blocks/header/__image/header__image.css);
-  @import url(../blocks/header/__subscript/header__subscript.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-list/header__lang-list.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang/_active/header__lang_active.css);
+
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__subscript/lead__subscript.css);
 
 @import url(../blocks/description/description.css);
-  @import url(../blocks/description/__title/description__title.css);
-  @import url(../blocks/description/__text/description__text.css);
-  @import url(../blocks/description/__statistics/description__statistics.css);
-  @import url(../blocks/description/__statistic-data/description__statistic-data.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__statistics/description__statistics.css);
+@import url(../blocks/description/__statistic-data/description__statistic-data.css);
 
 @import url(../blocks/photos/photos.css);
-  @import url(../blocks/photos/__image/photos__image.css);
+@import url(../blocks/photos/__image/photos__image.css);
 
 @import url(../blocks/places/places.css);
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__picture-link/cover__picture-link.css);
 
 @import url(../blocks/footer/footer.css);
-  @import url(../blocks/footer/__nav/footer__nav.css);
-  @import url(../blocks/footer/__nav-link/footer__nav-link.css);
-  @import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);
+@import url(../blocks/footer/__author/footer__author.css);

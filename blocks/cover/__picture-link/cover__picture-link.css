@@ -1,0 +1,22 @@
+.cover__picture-link {
+  min-height: 740px;
+  background-image: url(./cover__picture-link.jpg);
+}
+
+
+@media (max-width: 1280px) {
+
+  .cover__picture-link {
+    min-height: calc(640px + (740 - 640) * var(--scale-L));
+  }
+
+}
+
+
+@media (max-width: 1024px) {
+
+  .cover__picture-link {
+    min-height: 62.5vw;
+  }
+
+}

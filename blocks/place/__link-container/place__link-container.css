@@ -2,3 +2,13 @@
   justify-self: start;
   align-self: end;
 }
+
+
+@media (max-width: 500px) {
+
+  .place__link-container {
+    padding-left: var(--padding-S);
+    padding-right: var(--padding-S);
+  }
+
+}

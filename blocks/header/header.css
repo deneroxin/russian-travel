@@ -1,14 +1,15 @@
-.header__cap {
+.header {
   box-sizing: border-box;
   padding: 28px 48px 48px;
   display: flex;
+  justify-items: space-between;
   align-items: flex-end;
 }
 
 
 @media (max-width: 1024px) {
 
-  .header__cap {
+  .header {
     padding: 28px var(--padding-M) 48px;
   }
 
@@ -17,7 +18,7 @@
 
 @media (max-width: 768px) {
 
-  .header__cap {
+  .header {
     padding: calc(16px + (28 - 16) * var(--scale-S)) var(--padding-S) 48px;
   }
 

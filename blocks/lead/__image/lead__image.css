@@ -1,14 +1,13 @@
-.header__image {
+.lead__image {
   box-sizing: border-box;
   padding: 0 148px;
-  display: block;
   width: 100%;
 }
 
 
 @media (max-width: 1280px) {
 
-  .header__image {
+  .lead__image {
     padding: 0 var(--padding-L);
   }
 
@@ -17,7 +16,7 @@
 
 @media (max-width: 1024px) {
 
-  .header__image {
+  .lead__image {
     padding: 0 calc(0px + 48 * var(--scale-M));
   }
 
@@ -26,9 +25,8 @@
 
 @media (max-width: 768px) {
 
-  .header__image {
+  .lead__image {
     padding: 0;
   }
 
 }
-

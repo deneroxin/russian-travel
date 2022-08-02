@@ -32,9 +32,19 @@
 
   .places {
     padding: calc(64px + (88 - 64) * var(--scale-S))
-             calc(0px + 24 * var(--scale-S))
+             var(--padding-S)
              calc(66px + (90 - 66) * var(--scale-S));
     gap: calc(50px + (72 - 50) * var(--scale-S));
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .places {
+    padding-left: 0;
+    padding-right: 0;
   }
 
 }

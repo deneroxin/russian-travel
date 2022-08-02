@@ -3,3 +3,7 @@
   color: var(--color-text);
   cursor: url(../../cursors/custom-pointer.png) 8 3, pointer;
 }
+
+.link-style:hover {
+  opacity: 80%;
+}

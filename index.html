@@ -10,20 +10,23 @@
 <body class="background">
   <div class="page">
     <header class="header">
-      <div class="header__cap">
-        <div class="header__logo"></div>
-        <a class="header__lang header__lang_active" lang="en" href="#" target="_self">Ru</a>
-        <a class="header__lang" lang="en" href="#" target="_self">En</a>
+      <div class="header__logo"></div>
+      <div class="header__lang-list">
+        <a class="link-style header__lang header__lang_active" lang="en" href="#" target="_self">Ru</a>
+        <a class="link-style header__lang" lang="en" href="#" target="_self">En</a>
       </div>
-      <h1 class="header__title">Путешествия по России</h1>
-      <p class="header__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="header__image" src="./blocks/header/__image/header__image.jpg"
-           alt="Линия, очерчивающая маршрут через города: Псков, Великий Новгород, Тверь, Ярославль, Мантурово, Котельнич-1, Глазов,
-           Пермь, Тюмень, Омск, Красноярск, Улан-удэ. На фоне пассажир лежит на нижней боковой полке поезда, отвернувшись к окну.">
-      <p class="header__subscript">ваша полка — верхняя</p>
     </header>
 
     <main>
+      <section class="lead">
+        <h1 class="lead__title">Путешествия по России</h1>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <img class="lead__image" src="./blocks/lead/__image/lead__image.jpg"
+           alt="Линия, очерчивающая маршрут через города: Псков, Великий Новгород, Тверь, Ярославль, Мантурово, Котельнич-1, Глазов,
+           Пермь, Тюмень, Омск, Красноярск, Улан-удэ. На фоне пассажир лежит на нижней боковой полке поезда, отвернувшись к окну.">
+        <p class="lead__subscript">ваша полка — верхняя</p>
+      </section>
+
       <section class="description">
         <h2 class="description__title">Чего мы там не видели?</h2>
         <p class="description__text">
@@ -76,14 +79,17 @@
 
       <section class="places" aria-label="Места, которые стоит посетить">
         <article class="place">
-          <h3 class="place__title">Куршская коса</h3>
+          <h2 class="place__title">Куршская коса</h2>
           <div class="place__link-container">
             <p class="place__link-label">URL</p>
             <a class="place__link link-style" lang="en"
                href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
           <div>
-            <div class="place__image place__image_pic_kurshskaya-kosa"></div>
+            <div class="place__square-container">
+              <img class="place__image" src="./blocks/places/place__kurshskaya-kosa.jpg"
+                   alt="Чистая вода залива">
+            </div>
           </div>
           <div>
             <p class="place__text">
@@ -100,14 +106,17 @@
           </div>
         </article>
         <article class="place">
-          <h3 class="place__title">Кольский</h3>
+          <h2 class="place__title">Кольский</h2>
           <div class="place__link-container">
             <p class="place__link-label">URL</p>
             <a class="place__link link-style" lang="en"
                href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
           </div>
           <div>
-            <div class="place__image place__image_pic_kolskiy"></div>
+            <div class="place__square-container">
+              <img class="place__image" src="./blocks/places/place__kolskiy.jpg"
+                   alt="Заснеженная гора">
+            </div>
           </div>
           <div>
             <p class="place__text">
@@ -124,14 +133,17 @@
           </div>
         </article>
         <article class="place">
-          <h3 class="place__title">Алтай</h3>
+          <h2 class="place__title">Алтай</h2>
           <div class="place__link-container">
             <p class="place__link-label">URL</p>
             <a class="place__link link-style" lang="en"
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
           </div>
           <div>
-            <div class="place__image place__image_pic_altay"></div>
+            <div class="place__square-container">
+              <img class="place__image" src="./blocks/places/place__altay.jpg"
+                   alt="Вид из окна в лес">
+            </div>
           </div>
           <div>
             <p class="place__text">
@@ -148,14 +160,17 @@
           </div>
         </article>
         <article class="place">
-          <h3 class="place__title">Зимний Байкал</h3>
+          <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__link-container">
             <p class="place__link-label">URL</p>
             <a class="place__link link-style" lang="en"
                href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
           </div>
           <div>
-            <div class="place__image place__image_pic_zimniy-baykal"></div>
+            <div class="place__square-container">
+              <img class="place__image" src="./blocks/places/place__zimniy-baykal.jpg"
+                   alt="Толстый лед в трещинах">
+            </div>
           </div>
           <div>
             <p class="place__text">
@@ -171,14 +186,17 @@
           </div>
         </article>
         <article class="place">
-          <h3 class="place__title">Карелия</h3>
+          <h2 class="place__title">Карелия</h2>
           <div class="place__link-container">
             <p class="place__link-label">URL</p>
             <a class="place__link link-style" lang="en"
                href="http://vodlozero.ru">http://vodlozero.ru/</a>
           </div>
           <div>
-            <div class="place__image place__image_pic_kareliya"></div>
+            <div class="place__square-container">
+              <img class="place__image" src="./blocks/places/place__kareliya.jpg"
+                   alt="Вид на реку посреди леса с вершины дерева">
+            </div>
           </div>
           <div>
             <p class="place__text">
@@ -195,16 +213,11 @@
       </section>
 
       <section class="cover" aria-label="До Байкала «на собаках»">
-        <a class="picture-link link-style" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-          <img class="picture-link__image" src="./blocks/picture-link/__image/picture-link__image.jpg"
-                                           alt="Железнодорожные пути с составами.">
-          <div class="picture-link__overlay"></div>
-          <div class="picture-link__text-block">
-            <h2 class="picture-link__title">До Байкала «на собаках»</h2>
-            <p class="picture-link__subtitle">
-              По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-            </p>
-          </div>
+        <a class="picture-link cover__picture-link link-style" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          <h2 class="picture-link__title">До Байкала «на собаках»</h2>
+          <p class="picture-link__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+          </p>
         </a>
       </section>
     </main>

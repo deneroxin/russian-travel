@@ -24,3 +24,13 @@
   }
 
 }
+
+
+@media (max-width: 500px) {
+
+  .place__title {
+    padding-left: var(--padding-S);
+    padding-right: var(--padding-S);
+  }
+
+}

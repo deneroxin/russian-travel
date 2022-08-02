@@ -1,6 +1,33 @@
 .picture-link {
   position: relative;
-  display: grid;                /* Добиваемся, чтобы картинка растянулась на всю ширину поля, */
-  grid-template-columns: 100%;  /* сохранив пропорции, и обеспечила нужную высоту контейнеру. */
-  justify-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
 }
+
+.picture-link::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-background);
+  opacity: 30%;
+  transition: opacity .3s ease;
+}
+
+.picture-link:hover::before {
+  opacity: 80%;
+}
+
+/*
+Примечательно, что если даже не расставлять z-index-ы основному классу и псевдоэлементу,
+то независимо от использования ::after или ::before, оверлей перекрывает картинку,
+как будто порядок отрисовки таков, что сначала рисуется основной элемент,
+а уж затем - и ::before, и ::after. Я ожидал, что элемент ::before будет числиться раньше.
+*/
