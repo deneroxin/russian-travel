@@ -11,9 +11,9 @@
 @media (max-width: 768px) {
 
   .header__title {
-    max-width: calc(288px + (720 - 288) * var(--scale-S));   
+    max-width: calc(288px + (720 - 288) * var(--scale-S));
     line-height: calc(44px + (100 - 44) * var(--scale-S));
-    font-size: 12.5vw;   
+    font-size: 12.5vw;
   }
 
 }

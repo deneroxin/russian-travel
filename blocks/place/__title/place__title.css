@@ -7,21 +7,20 @@
 
 
 @media (max-width: 1024px) {
-  
+
   .place__title {
     line-height: calc(46px + (76 - 46) * var(--scale-M));
     font-size: calc(42px + (72 - 42) * var(--scale-M));
   }
-    
+
 }
-    
-  
+
+
 @media (max-width: 768px) {
-    
+
   .place__title {
     line-height: calc(35px + (46 - 35) * var(--scale-S));
     font-size: calc(32px + (42 - 32) * var(--scale-S));
   }
-  
+
 }
-  
