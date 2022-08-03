@@ -48,6 +48,7 @@ P.S. Проблема актуальна не только для квадрат
 */
 
 .place__image {
+  --image-width: 460px;
   width: var(--image-width);
   height: var(--image-width);
   object-fit: cover;
