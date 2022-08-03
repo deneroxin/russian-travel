@@ -1,6 +1,5 @@
 .place__title {
   margin: 0;
-  max-width: var(--image-width);
   line-height: 76px;
   font-size: 72px;
   font-weight: 900;
